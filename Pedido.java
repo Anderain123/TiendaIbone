@@ -8,16 +8,16 @@ import java.util.HashMap;
  * @author (Ibone) 
  * @version (a version number or a date)
  */
-public class pedido
+public class Pedido
 {
     // instance variables - replace the example below with your own
-    private HashMap<Integer, linea> map;
+    private HashMap<Integer, Linea> map;
     String direccion;
     String nombreCliente;
     /**
      * Inicializaremos nuestro objeto creado y lo crearemos
      */
-    public pedido()
+    public Pedido()
     {
         map=new HashMap<>();
        
@@ -26,7 +26,7 @@ public class pedido
      * Este metodo consiste en crear objetos del tipo map.
      * @param utiliza un tipo entero y un parametro linea
      */
-    public void añadir(int codigo, linea linea )
+    public void añadir(int codigo, Linea linea )
     {
         map.put(codigo, linea);
     }

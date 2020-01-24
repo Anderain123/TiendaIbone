@@ -6,7 +6,7 @@
  * @author (Ibone) 
  * @version (a version number or a date)
  */
-public class linea
+public class Linea
 {
     // instance variables - replace the example below with your own
     private Producto producto;
@@ -15,7 +15,7 @@ public class linea
      * Inicializaremos las variables que hemos creado anteriormente
      * @param un Producto y un entero
      */
-    public linea(Producto producto, int cantidad)
+    public Linea(Producto producto, int cantidad)
     {
       this.producto=producto;
       this.cantidad=cantidad;
